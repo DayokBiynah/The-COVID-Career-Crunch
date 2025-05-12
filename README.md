@@ -1,20 +1,22 @@
-# 🦠 The COVID Career Crunch: A Data-Driven Analysis of Job Market Disruption
+# 🦠 The COVID Career Crunch: A SQL-Driven Analysis of Job Market Disruption
 
-## Overview
-This project presents a comprehensive data analytics investigation into the impact of the COVID-19 pandemic on employment. Using a full-stack toolkit—SQL, Python, Azure, Tableau, Power BI, and Excel—I explored job loss patterns, recovery trends, industry-specific effects, and the broader labor market shifts caused by the global health crisis.
+## 📌 Overview
+This project explores the impact of the COVID-19 pandemic on employment using **SQL** for data analysis. I performed data cleaning and exploratory data analysis (EDA) on a dataset of global layoffs to uncover trends, and industry-wide effects across different regions and time periods.
 
-## 🔍 Project Goals
-- Analyze unemployment trends during and after the COVID-19 outbreak
-- Identify the industries and demographics most affected
-- Track labor market recovery across regions and sectors
-- Visualize key insights using interactive dashboards
+## 🎯 Project Goals
+- Analyze job and layoff trends during and after the COVID-19 pandemic  
+- Identify companies, industries, and regions most affected  
+- Track labor market shifts and recovery across years  
+- Derive key insights using only SQL queries and aggregations  
 
 ## 🛠️ Tools & Technologies
-| Tool        | Purpose                              |
-|-------------|--------------------------------------|
-| **SQL**     | Data cleaning, querying, aggregation |
-| **Python**  | Data wrangling, visualization (pandas, matplotlib, seaborn) |
-| **Azure**   | Data storage and integration pipeline |
-| **Excel**   | Quick stats, pivot tables, and initial exploration |
-| **Power BI**| Interactive dashboards and business storytelling |
-| **Tableau** | Advanced data visualization and analysis |
+| Tool    | Purpose                                        |
+|---------|------------------------------------------------|
+| **SQL** | Data cleaning, querying, aggregation, and EDA  |
+
+## 📊 Key SQL Techniques Used
+- Common Table Expressions (CTEs)  
+- Window Functions (e.g., `DENSE_RANK()`, `OVER(ORDER BY ...)`)  
+- `GROUP BY`, `ORDER BY`, `LIMIT` for summarizing patterns  
+- `WHERE`, `MAX()`, `MIN()`, and conditional filters for outliers  
+- Date truncation for monthly and yearly analysis  
